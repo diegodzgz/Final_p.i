@@ -1,9 +1,10 @@
+
+<?php include 'funciones.php'; ?>
 <!DOCTYPE html>
 <html>
   <?php include 'header.php'; ?>
   <body>
     <?php include 'top.php'; ?>
-    <?php include 'funciones.php'; ?>
 
     <?php
 
@@ -31,6 +32,7 @@
     <?php }?>
 
 
+    <?php include ('bot.php'); ?>
 
   </body>
 </html>

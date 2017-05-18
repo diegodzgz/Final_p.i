@@ -1,12 +1,13 @@
+
+<?php include 'funciones.php'; ?>
 <html>
   <?php include 'header.php'; ?>
   <body>
     <?php include 'top.php'; ?>
-    <?php include 'funciones.php'; ?>
 
     <?php
 
-    $resultado = mysql_query('SELECT * FROM producto where Marca=2 ' );
+    $resultado = mysql_query('SELECT * FROM producto where Marca=2 '  );
     if (!$resultado) {
         die('Consulta no válida: ' . mysql_error());
       }
@@ -24,7 +25,7 @@
                 </h4>
                 <p><?php echo $f['Descripcion'];  ?></p>
             </div>
-            <a href="carrito.php?id=<?php echo $f['idproducto'];?>">Añadir al carrito</a>
+            <a href="carrito.php?idproducto=<?php echo $f['idproducto'];?>">Añadir al carrito</a>
         </div>
     </div>
   </div>
@@ -32,6 +33,11 @@
 
     <?php }?>
 
+
+        <hr>
+
+        <!-- Footer -->
+        <?php include ('bot.php'); ?>
 
 
   </body>

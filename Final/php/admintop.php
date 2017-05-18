@@ -11,23 +11,18 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                < <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Producto<span ><i class=" icon-arrow-down"></i></span></a>
-                    <ul class="dropdown-menu">
-                       <li><a href="marca.php">Marca</a></li>
-                       <li><a href="Deportes.php">Deporte</a></li>
-                       <li><a href="Accesorios.php">Accesorios</a></li>
-                   </ul>
+                 <li><a href="admin.php" >Ver Historial</a>
                 </li>
                 <li>
-                    <a href="#">Acerca</a>
+                    <a href="agregar.php">Agregar Nuevo producto</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="Modificar.php">Modificar</a>
                 </li>
                 <li class="login">
-                  <a   href="login.php">Login</a>
+                  <a   href="cerrar.php">Salir</a>
                 </li>
-                <li> <a href="carrito.php"> <span class="icon-cart"></span></a></li>
+
             </ul>
         </div>
     </div>
